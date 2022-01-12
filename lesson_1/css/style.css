@@ -140,3 +140,49 @@ p,a,h1,h2,h3,h4,h5,h6 {
 .xit-sec .xit-text .xit-count .cart-icon a img {
     width: 50%;
 }
+
+
+
+/* register */
+.xit-reg {
+    margin-top: 140px;
+}
+.xit-form {
+    width: 512px;
+    margin: auto;
+}
+.form-label {
+    margin: 0;
+    padding: 15px 0;
+    width: 240px;
+    height: 56px;
+    font-size: 20px;
+}
+.xit-submit {
+    margin: 32px 0 44px;
+    text-align: center;
+}
+.xit-submit button {
+    width: 240px;
+    padding: 16px 0;
+    background: #FF7353;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 16px;
+}
+.xit-submit button:hover {
+    color: rgb(65, 62, 255);
+}
+.xit-checks .input-group {
+    justify-content: center;
+}
+.xit-checks .input-group-text {
+    background: #fff;
+    border: none;
+    margin-right: 143px;
+}
+.xit-checks input {
+    margin-right: 24px;
+}
