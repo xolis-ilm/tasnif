@@ -10,12 +10,10 @@ body {
     font-weight: bold;
     letter-spacing: 2px;
 }
-/* .navbar-brand span{
+.navbar-brand span{
     --bs-text-opacity: 1;
     color: rgba(var(--bs-warning-rgb),var(--bs-text-opacity))!important;
-    padding: 0;
-    margin: 0;
-} */
+}
 .navbar-nav .nav-item a {
     text-transform: uppercase;
     color: #000;
@@ -32,7 +30,7 @@ body {
 }
 
 .carousel-caption {
-    bottom: 9.25rem;
+    bottom: 15.25rem;
 }
 .carousel-caption h5{
     font-size: 3rem;
@@ -64,17 +62,20 @@ body {
 .bi-laptop {
     font-size: 50px;
 }
-.card {
-    padding: 0 25px;
-}
 .card-title {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
     padding: 0;
 }
 .card.text {
     font-size: 1.25rem;
     padding: 1px;
+}
+.offers {
+    margin-bottom: 250px;
+} 
+.offers a {
+    width: 100%;
 }
 
 
