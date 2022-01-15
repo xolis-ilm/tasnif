@@ -175,14 +175,91 @@ p,a,h1,h2,h3,h4,h5,h6 {
 .xit-submit button:hover {
     color: rgb(65, 62, 255);
 }
-.xit-checks .input-group {
-    justify-content: center;
+.xit-checks {
+    margin-bottom: 89px;
 }
-.xit-checks .input-group-text {
-    background: #fff;
-    border: none;
+.xit-checks .form-check {
+    display: inline-block;
     margin-right: 143px;
 }
-.xit-checks input {
-    margin-right: 24px;
+.xit-checks .form-check input {
+    margin-right: 19px;
+}
+.xit-checks .form-check label {
+    width: 192px;
+    height: 32px;
+    padding-top: 4px;
+    text-align: left;
+}
+.form-group {
+    text-align: center;
+}
+
+.menu-slider {
+    position: relative;
+}
+.menu-slider .owl-nav button {
+    position: absolute;
+    top: 40%;
+}
+.menu-slider .owl-nav .owl-prev {
+    left: 0;
+}
+.menu-slider .owl-nav .owl-next {
+    right: 0;
+}
+.our-menu .menu-item {
+    width: 100%;
+}
+.xit_street input {
+    padding: 16px;
+    width: 512px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mob {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+    .pc {display: none;}
+    .mob {display: block;}
+    .menu-slider {
+        padding: 30px 60px;
+    }
+    .our-menu .menu-item {
+        width: 75%;
+    }
+    .menu-slider .owl-nav .owl-next {
+        right: 8%;
+    }
+    .menu-slider .owl-nav .owl-prev {
+        left: 8%;
+    }
+    .owl-carousel .owl-stage-outer {
+        margin-left: 30px;
+    }
 }
