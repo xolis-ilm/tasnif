@@ -211,11 +211,20 @@ p,a,h1,h2,h3,h4,h5,h6 {
 .our-menu .menu-item {
     width: 100%;
 }
-.xit_street input {
+.street-item input {
     padding: 16px;
-    width: 512px;
+    width: 100%;
 }
-
+.home-street input {
+    width: 100%;
+    display: inline-block;
+}
+.home-street input:first-child {
+    margin-right: 30px;
+}
+.xit-rov {
+    justify-content: center;
+}
 
 
 
